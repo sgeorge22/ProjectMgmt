@@ -16,5 +16,6 @@ namespace ProjectMgmt.Data
 
         public DbSet<ProjectMgmt.Models.Developer> Developers { get; set; }
         public DbSet<ProjectMgmt.Models.Project> Projects { get; set; }
+        public DbSet<ProjectMgmt.Models.Assignment> Assignments { get; set; }
     }
 }
